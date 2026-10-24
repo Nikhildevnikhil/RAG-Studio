@@ -18,7 +18,7 @@ import {
   CheckSquare,
   Square
 } from "lucide-react";
-import { api } from "../services/api";
+import { api, API_BASE } from "../services/api";
 import { EvaluationDataset, EvaluationExample } from "../types";
 
 export const DatasetStudioScreen: React.FC = () => {
@@ -192,7 +192,7 @@ export const DatasetStudioScreen: React.FC = () => {
 
   const handleExport = (format: "json" | "csv") => {
     if (!selectedDatasetId) return;
-    window.open(`http://localhost:8000/api/v1/datasets/${selectedDatasetId}/export?format=${format}`);
+    window.open(`${API_BASE}/datasets/${selectedDatasetId}/export?format=${format}`);
   };
 
   return (

@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Git & CI
+.git/
+.github/
+.gitignore
+
+# Database & local file storage
+storage/
+*.db
+*.sqlite
+rag_studio.db
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env

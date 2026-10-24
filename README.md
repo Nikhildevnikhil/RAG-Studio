@@ -1,4 +1,15 @@
+---
+title: RAG Studio
+emoji: ⚡
+colorFrom: indigo
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # RAG Studio — A Configurable Retrieval-Augmented Generation Platform
+
 
 **RAG Studio** is an enterprise-grade AI workbench that enables developers, ML engineers, and researchers to upload documents, configure and experiment with RAG pipelines, inspect retrieved evidence with inline citations, and evaluate retrieval and answer-generation quality through automated metrics and an LLM-as-a-Judge interface.
 
